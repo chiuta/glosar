@@ -1,0 +1,14 @@
+# Good first issues
+
+- [ ] Define the ISO 639-3 language list and add a `languages.json` index
+- [ ] Add 50 basic words (numbers, family, body) for Aromanian (rup)
+- [ ] Add 50 basic words for Megleno-Romanian (ruq)
+- [ ] Add 50 basic words for Romani (rom) with dialect field
+- [ ] Add a `dialect` and `orthography` optional field to the schema
+- [ ] Build the offline search page with diacritic-insensitive matching
+- [ ] Add audio recording support (opus, < 50 KB per word) and a recording guide
+- [ ] Add export to Anki/TSV for learners
+- [ ] Write contributor guide for non-technical speakers (with screenshots)
+- [ ] Add a checker that warns about duplicate headwords
+
+Create them all on GitHub with `scripts/create_issues.sh` (needs the `gh` CLI).
