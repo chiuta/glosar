@@ -1,5 +1,7 @@
 # Good first issues
 
+**English** · [Română](ISSUES_GOOD_FIRST.ro.md) · [Français](ISSUES_GOOD_FIRST.fr.md) · [Italiano](ISSUES_GOOD_FIRST.it.md) · [Español](ISSUES_GOOD_FIRST.es.md) · [Português](ISSUES_GOOD_FIRST.pt.md) · [Deutsch](ISSUES_GOOD_FIRST.de.md) · [Magyar](ISSUES_GOOD_FIRST.hu.md)
+
 - [ ] Define the ISO 639-3 language list and add a `languages.json` index
 - [ ] Add 50 basic words (numbers, family, body) for Aromanian (rup)
 - [ ] Add 50 basic words for Megleno-Romanian (ruq)
