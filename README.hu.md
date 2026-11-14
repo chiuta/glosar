@@ -4,6 +4,8 @@
 
 Verzió: 0.1.0 · Utolsó frissítés: 2026-11-13
 
+🌐 https://glosar.chiuta.ro
+
 > Offline szótárak kisebbségi és veszélyeztetett nyelvekhez, beszélőik készítésében.
 
 Trade-free: nincs követés, nincs reklám, nincs fiók, offline is működik.

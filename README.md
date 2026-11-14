@@ -4,6 +4,8 @@
 
 Version: 0.1.0 · Last updated: 2026-11-13
 
+🌐 https://glosar.chiuta.ro
+
 > Offline dictionaries for minority and endangered languages, built by their speakers.
 
 Trade-free: no tracking, no ads, no accounts, works offline.

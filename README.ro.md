@@ -4,6 +4,8 @@
 
 Versiune: 0.1.0 · Ultima actualizare: 2026-11-13
 
+🌐 https://glosar.chiuta.ro
+
 > Dicționare offline pentru limbi minoritare și pe cale de dispariție, create de vorbitorii lor.
 
 Fără comerț (trade-free): fără urmărire, fără reclame, fără conturi, funcționează offline.

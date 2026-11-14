@@ -4,6 +4,8 @@
 
 Versión: 0.1.0 · Última actualización: 2026-11-13
 
+🌐 https://glosar.chiuta.ro
+
 > Diccionarios sin conexión para lenguas minoritarias y en peligro, creados por sus hablantes.
 
 Trade-free: sin rastreo, sin anuncios, sin cuentas, funciona sin conexión.

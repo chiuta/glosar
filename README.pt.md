@@ -4,6 +4,8 @@
 
 Versão: 0.1.0 · Última atualização: 2026-11-13
 
+🌐 https://glosar.chiuta.ro
+
 > Dicionários offline para línguas minoritárias e ameaçadas, criados pelos seus falantes.
 
 Trade-free: sem rastreamento, sem anúncios, sem contas, funciona offline.

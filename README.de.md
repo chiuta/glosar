@@ -4,6 +4,8 @@
 
 Version: 0.1.0 · Letzte Aktualisierung: 2026-11-13
 
+🌐 https://glosar.chiuta.ro
+
 > Offline-Wörterbücher für Minderheiten- und bedrohte Sprachen, von ihren Sprechern erstellt.
 
 Trade-free: kein Tracking, keine Werbung, keine Konten, funktioniert offline.
