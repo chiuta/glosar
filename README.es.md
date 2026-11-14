@@ -2,13 +2,27 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · **Español** · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-Versión: 0.1.0 · Última actualización: 2026-11-13
+Versión: 0.1.0 · Última actualización: 2026-11-14
 
 🌐 https://glosar.chiuta.ro
 
 > Diccionarios sin conexión para lenguas minoritarias y en peligro, creados por sus hablantes.
 
 Trade-free: sin rastreo, sin anuncios, sin cuentas, funciona sin conexión.
+
+## Estado
+
+Alfa: el repositorio contiene la estructura, el esquema de datos o los primeros ejemplos y las guías de contribución. El alcance de abajo es el plan, no lo que funciona hoy.
+
+## Alcance previsto
+
+- Un índice de lenguas (`languages.json`) basado en los códigos ISO 639-3 y un esquema de datos con los campos opcionales `dialect` y `orthography`.
+- Listas iniciales de unas 50 palabras básicas (números, familia, cuerpo) para el arromanés (rup), el meglenorrumano (ruq) y el romaní (rom).
+- Una página de búsqueda sin conexión, insensible a los signos diacríticos.
+- Grabaciones de audio (Opus, menos de 50 KB por palabra) con una guía de grabación, y exportación a Anki/TSV para quien aprende.
+- Un comprobador que avisa de las entradas duplicadas y una guía para hablantes sin formación técnica.
+
+Nada de esto está implementado todavía: cada punto es una tarea preparada en `ISSUES_GOOD_FIRST.md`.
 
 ## Contribuye en 5 minutos
 
