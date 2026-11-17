@@ -1,0 +1,16 @@
+{
+  "lang": "rom",
+  "headword": "kokalo",
+  "pos": "noun",
+  "gloss": {
+    "en": "bone",
+    "ro": "os"
+  },
+  "concept": "bone",
+  "orthography": "latin-standard",
+  "status": "sourced",
+  "notes": "A single word recorded in a published dictionary; no text was copied.",
+  "source": "Angloromani dictionary (kratylos.org), etymology column 'European Romani'",
+  "source_url": "https://www.kratylos.org/~raphael/romani/angloromani/dictionaryf80c.html?page=121",
+  "license": "The source states no licence; single words only"
+}

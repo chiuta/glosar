@@ -1,0 +1,15 @@
+{
+  "lang": "ruq",
+  "headword": "șapti",
+  "pos": "numeral",
+  "gloss": {
+    "en": "seven",
+    "ro": "șapte"
+  },
+  "concept": "number-7",
+  "orthography": "ro-based",
+  "status": "sourced",
+  "source": "Wikipedia, 'Romanian numbers', table 'Numbers from 1 to 10' and Wiktionary, 'Category:Megleno-Romanian numerals'",
+  "source_url": "https://en.wikipedia.org/wiki/Romanian_numbers",
+  "license": "CC BY-SA 4.0"
+}

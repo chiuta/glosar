@@ -1,0 +1,16 @@
+{
+  "name": "glosar",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Offline dictionaries for minority and endangered languages, built by their speakers.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.mjs\"",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --check && python3 scripts/validate.py"
+  }
+}

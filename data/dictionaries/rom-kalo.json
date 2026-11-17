@@ -1,0 +1,16 @@
+{
+  "lang": "rom",
+  "headword": "kalo",
+  "pos": "adjective",
+  "gloss": {
+    "en": "black",
+    "ro": "negru"
+  },
+  "concept": "black",
+  "orthography": "latin-standard",
+  "status": "sourced",
+  "notes": "A single word recorded in a published dictionary; no text was copied.",
+  "source": "Angloromani dictionary (kratylos.org), etymology column 'European Romani'",
+  "source_url": "https://www.kratylos.org/~raphael/romani/angloromani/dictionaryfdb0.html?page=4",
+  "license": "The source states no licence; single words only"
+}

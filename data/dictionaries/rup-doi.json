@@ -1,0 +1,16 @@
+{
+  "lang": "rup",
+  "headword": "doi",
+  "pos": "numeral",
+  "gloss": {
+    "en": "two",
+    "ro": "doi"
+  },
+  "concept": "number-2",
+  "orthography": "armaneashti",
+  "status": "sourced",
+  "notes": "Feminine form: doauã.",
+  "source": "Wiktionary, 'Category:Aromanian numerals' and Wikipedia, 'Romanian numbers', table 'Numbers from 1 to 10'",
+  "source_url": "https://en.wiktionary.org/wiki/Category:Aromanian_numerals",
+  "license": "CC BY-SA 4.0"
+}

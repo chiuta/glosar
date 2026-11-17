@@ -1,0 +1,18 @@
+{
+  "slug": "glosar",
+  "version": "0.2.0",
+  "updated": "2026-11-17",
+  "plugins": null,
+  "data": "data/dictionaries",
+  "audio": "audio",
+  "files": {
+    "LANGUAGES": "data/languages.json",
+    "CONCEPTS": "data/concepts.json"
+  },
+  "pwa": {
+    "categories": [
+      "education",
+      "books"
+    ]
+  }
+}

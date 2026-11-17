@@ -2,15 +2,15 @@
 
 **English** · [Română](ISSUES_GOOD_FIRST.ro.md) · [Français](ISSUES_GOOD_FIRST.fr.md) · [Italiano](ISSUES_GOOD_FIRST.it.md) · [Español](ISSUES_GOOD_FIRST.es.md) · [Português](ISSUES_GOOD_FIRST.pt.md) · [Deutsch](ISSUES_GOOD_FIRST.de.md) · [Magyar](ISSUES_GOOD_FIRST.hu.md)
 
-- [ ] Define the ISO 639-3 language list and add a `languages.json` index
-- [ ] Add 50 basic words (numbers, family, body) for Aromanian (rup)
-- [ ] Add 50 basic words for Megleno-Romanian (ruq)
-- [ ] Add 50 basic words for Romani (rom) with dialect field
-- [ ] Add a `dialect` and `orthography` optional field to the schema
-- [ ] Build the offline search page with diacritic-insensitive matching
-- [ ] Add audio recording support (opus, < 50 KB per word) and a recording guide
-- [ ] Add export to Anki/TSV for learners
-- [ ] Write contributor guide for non-technical speakers (with screenshots)
-- [ ] Add a checker that warns about duplicate headwords
+- [ ] Have Aromanian speakers review the 11 starter entries (`rup-*`), correct them and set `status: reviewed` with `reviewed_by`
+- [ ] Have Megleno-Romanian speakers review the 10 starter entries (`ruq-*`) in the same way
+- [ ] Have Romani speakers review the 22 starter entries (`rom-*`) and add the `dialect` of each form (the sources do not give it)
+- [ ] Add the first Istro-Romanian (`ruo`) entries from a published source, with its web address (never from memory)
+- [ ] Add another minority or endangered language to `data/languages.json` (ISO 639-3 code, dialects, spelling systems) with a first word list from a cited source
+- [ ] Extend the basic list to 100 concepts in `data/concepts.json` and add the concept names in French, Italian, Spanish, Portuguese, German and Hungarian (they exist only in English and Romanian)
+- [ ] Record the ten numerals of each language with the app (Opus, under 50 KB) and send the contribution file (speakers only)
+- [ ] Have native speakers review the interface texts in `src/i18n.mjs` (French, Italian, Spanish, Portuguese, German, Hungarian); they were written with an AI assistant
+- [ ] Add a dialect filter and a spelling-system filter to the search tab, with tests
+- [ ] Make recording work in Safari: record WAV in the page and encode it to Opus in JavaScript (no network, at most 50 KB), or document an `ffmpeg` command in `docs/recording-guide.md`
 
 Create them all on GitHub with `scripts/create_issues.sh` (needs the `gh` CLI).

@@ -1,0 +1,15 @@
+{
+  "lang": "rom",
+  "headword": "duj",
+  "pos": "numeral",
+  "gloss": {
+    "en": "two",
+    "ro": "doi"
+  },
+  "concept": "number-2",
+  "orthography": "latin-standard",
+  "status": "sourced",
+  "source": "Wikipedia, 'Early Romani' (numerals 1–10) and Wiktionary, 'Category:Romani numerals'",
+  "source_url": "https://en.wikipedia.org/wiki/Early_Romani",
+  "license": "CC BY-SA 4.0"
+}

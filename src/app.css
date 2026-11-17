@@ -1,0 +1,79 @@
+/* GLOSAR · stiluri pentru secțiunea aplicației (doar clase; politica CSP interzice atributele style).
+   Spațierea folosește margini, nu «gap», ca să meargă și în browsere mai vechi. */
+#app [hidden],.gl-card [hidden]{display:none!important}
+.gl-intro{max-width:70ch}
+.gl-msg{min-height:1.5em;max-width:80ch;font-weight:650;margin:.5em 0}
+.gl-msg p{margin:.2em 0}
+.gl-lines{margin:.3em 0 .3em 1.2em;padding:0;max-width:80ch;overflow-wrap:anywhere}
+.gl-tabs{display:flex;flex-wrap:wrap;margin:10px 0 6px}
+.gl-tabs .btn{margin:0 8px 8px 0;min-height:44px}
+.gl-box{margin:8px 0;min-width:0}
+.gl-box h3{margin:1.1em 0 .4em}
+.gl-box h4{margin:.9em 0 .3em}
+.gl-bar{display:flex;flex-wrap:wrap;align-items:flex-end;margin:10px 0}
+.gl-bar>*{margin:0 10px 8px 0;min-width:0;max-width:100%}
+.gl-bar .btn{min-height:44px}
+.gl-f{display:flex;flex-direction:column;font-size:.88rem;color:var(--mut);min-width:0;max-width:100%;margin:0 12px 10px 0}
+.gl-f>label{font-weight:650;margin-bottom:4px}
+.gl-inp{background:var(--card);color:var(--tx);border:1px solid var(--line);border-radius:10px;font:inherit;font-size:1rem;min-height:44px;padding:6px 10px;max-width:100%;min-width:0;box-sizing:border-box}
+.gl-inp:hover{border-color:var(--ac)}
+.sel.gl-inp{max-width:100%}
+textarea.gl-inp{display:block;width:100%;max-width:80ch;line-height:1.45;resize:vertical}
+input.gl-inp[type="text"]{width:100%;max-width:34rem}
+.gl-check{display:inline-flex;align-items:center;margin:4px 16px 8px 0;min-height:32px;cursor:pointer}
+.gl-check input{margin:0 8px 0 0;width:20px;height:20px}
+.gl-count{color:var(--mut);margin:.6em 0;max-width:80ch}
+.gl-empty{color:var(--mut);max-width:80ch}
+.gl-list{list-style:none;margin:8px 0;padding:0;max-width:80ch}
+.gl-entry{margin:10px 0;padding:10px 14px;border:1px solid var(--line);border-left:4px solid var(--ac);border-radius:10px;background:var(--card);overflow-wrap:anywhere}
+.gl-entry:focus{outline:3px solid var(--ac);outline-offset:2px}
+.gl-head{font-size:1.15rem}
+.gl-word{font-weight:750}
+.gl-var{color:var(--mut);font-size:.95rem}
+.gl-meta{color:var(--mut);font-size:.88rem;margin:.2em 0}
+.gl-badge{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:0 8px;font-size:.8rem;color:var(--tx);background:var(--bg2)}
+.gl-st-sourced{border-color:var(--ac)}
+.gl-st-reviewed{border-color:#2e9d4a;font-weight:650}
+.gl-yours{border-style:dashed}
+.gl-gloss{margin:.3em 0}
+.gl-notes{margin:.4em 0;color:var(--mut);white-space:pre-wrap}
+.gl-exh{font-weight:650;margin-top:.4em}
+.gl-ex{margin:.2em 0 .2em 1.2em;padding:0}
+.gl-src{font-size:.86rem;color:var(--mut);margin:.4em 0;overflow-wrap:anywhere}
+.gl-play{min-height:40px;padding:6px 14px;margin:4px 0 0}
+.gl-have{margin:.3em 0 .6em 1.2em;padding:0;max-width:80ch}
+.gl-tblw{position:relative;max-width:100%;overflow-x:auto}
+.gl-tblw:focus{outline:3px solid var(--ac);outline-offset:2px}
+.gl-table{margin:14px 0;table-layout:fixed;min-width:34rem}
+.gl-table th:first-child{width:24%}
+.gl-table td,.gl-table th[scope="row"]{vertical-align:middle}
+.gl-capt{text-align:left;font-weight:700;padding:6px 10px;color:var(--tx)}
+.gl-table thead th{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line)}
+.gl-table th[scope="row"]{text-align:left;color:var(--tx);font-size:.93rem;font-weight:650;text-transform:none;letter-spacing:0;padding:9px 10px;border-bottom:1px solid var(--line);overflow-wrap:anywhere}
+.gl-table td{overflow-wrap:anywhere}
+.gl-addbtn{min-height:44px;padding:4px 12px}
+.gl-have-cell{font-weight:650}
+.gl-off,.gl-file{position:absolute;width:1px;height:1px;margin:-1px;padding:0;border:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.gl-filelab{cursor:pointer}
+.gl-file:focus+.gl-filelab{outline:3px solid var(--ac);outline-offset:2px}
+.gl-file:focus-visible+.gl-filelab{outline:3px solid var(--ac);outline-offset:2px}
+.gl-more summary{cursor:pointer;font-weight:650;min-height:32px;margin:6px 0}
+.gl-more .gl-f{margin-top:6px}
+.gl-audio{margin:12px 0}
+.gl-check-out{max-width:80ch;margin:.4em 0}
+.gl-custom{list-style:none;margin:8px 0;padding:0;max-width:80ch}
+.gl-custom li{margin:8px 0;padding:10px;border:1px solid var(--line);border-radius:10px;overflow-wrap:anywhere}
+.gl-cid{font-weight:650}
+.gl-cmeta{color:var(--mut)}
+.gl-custom .btn{min-height:40px;padding:6px 14px;margin:6px 8px 0 0}
+.gl-steps{margin:.4em 0 .6em 1.4em;padding:0;max-width:80ch}
+.gl-steps li{margin:.4em 0}
+.gl-list-lim{max-width:80ch}
+.gl-bad{color:#ffb4ab}
+:root[data-theme="light"] .gl-bad{color:#8c1d18}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]) .gl-bad{color:#8c1d18}}
+.gl-ok{color:#9be3a8;font-weight:650}
+:root[data-theme="light"] .gl-ok{color:#14591f}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]) .gl-ok{color:#14591f}}
+.gl-warn{font-weight:650}
+@media (max-width:860px){.gl-inp{min-width:80px}}

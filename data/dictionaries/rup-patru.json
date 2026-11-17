@@ -1,0 +1,15 @@
+{
+  "lang": "rup",
+  "headword": "patru",
+  "pos": "numeral",
+  "gloss": {
+    "en": "four",
+    "ro": "patru"
+  },
+  "concept": "number-4",
+  "orthography": "armaneashti",
+  "status": "sourced",
+  "source": "Wiktionary, 'Category:Aromanian numerals' and Wikipedia, 'Romanian numbers', table 'Numbers from 1 to 10'",
+  "source_url": "https://en.wiktionary.org/wiki/Category:Aromanian_numerals",
+  "license": "CC BY-SA 4.0"
+}

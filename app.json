@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "slug": "glosar",
+  "name": "GLOSAR — Offline dictionaries for minority and endangered languages, built by their speakers",
+  "version": "0.2.0",
+  "updated": "2026-11-17",
+  "description": "Offline dictionaries for minority and endangered languages, built by their speakers",
+  "egress": [],
+  "permissions": [
+    "getUserMedia",
+    "clipboard",
+    "serviceWorker",
+    "localStorage",
+    "WebGL"
+  ],
+  "storageKeys": [
+    "glosar.state"
+  ],
+  "sizeBytes": 470015,
+  "sha256": "341e02417e2bd33efc9a4422f27af5293ee424dc037c2d79fd165cf1362ad821",
+  "csp": {
+    "present": true,
+    "directives": {
+      "default-src": "'none'",
+      "script-src": "sha256×7",
+      "style-src": "sha256×3",
+      "img-src": "'self' data:",
+      "base-uri": "'none'",
+      "form-action": "'none'",
+      "manifest-src": "'self'",
+      "worker-src": "'self'"
+    },
+    "scriptInline": "hash",
+    "connect": "'none'"
+  },
+  "features": {
+    "export": true,
+    "import": true,
+    "i18n": [
+      "ro",
+      "en",
+      "fr",
+      "it",
+      "es",
+      "pt",
+      "hu",
+      "de"
+    ],
+    "pwa": {
+      "manifest": true,
+      "serviceWorker": true
+    },
+    "modules": [
+      "core",
+      "store",
+      "view",
+      "a11y",
+      "share"
+    ]
+  },
+  "kit": {
+    "version": "1.8.0",
+    "modules": [
+      "core",
+      "store",
+      "view",
+      "a11y",
+      "share"
+    ]
+  },
+  "selfSerializing": false
+}

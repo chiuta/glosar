@@ -1,0 +1,19 @@
+{
+  "lang": "rom",
+  "headword": "jekh",
+  "variants": [
+    "ekh"
+  ],
+  "pos": "numeral",
+  "gloss": {
+    "en": "one",
+    "ro": "unu"
+  },
+  "concept": "number-1",
+  "orthography": "latin-standard",
+  "status": "sourced",
+  "notes": "Forms vary between dialects; this is the common form.",
+  "source": "Wikipedia, 'Early Romani' (numerals 1–10) and Wiktionary, 'Category:Romani numerals'",
+  "source_url": "https://en.wikipedia.org/wiki/Early_Romani",
+  "license": "CC BY-SA 4.0"
+}

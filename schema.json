@@ -1,57 +1,25 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "GLOSAR dictionary entry (one entry = one file in data/dictionaries/, file name <lang>-<headword>.json)",
   "type": "object",
-  "required": [
-    "lang",
-    "headword",
-    "pos",
-    "gloss",
-    "source"
-  ],
+  "additionalProperties": false,
+  "required": ["lang", "headword", "pos", "gloss", "source"],
   "properties": {
-    "lang": {
-      "type": "string",
-      "pattern": "^[a-z]{2,3}(-[A-Za-z0-9]+)*$"
-    },
-    "headword": {
-      "type": "string",
-      "minLength": 1
-    },
-    "pos": {
-      "enum": [
-        "noun",
-        "verb",
-        "adjective",
-        "adverb",
-        "pronoun",
-        "preposition",
-        "conjunction",
-        "interjection",
-        "phrase",
-        "other"
-      ]
-    },
-    "gloss": {
-      "type": "object",
-      "minProperties": 1,
-      "additionalProperties": {
-        "type": "string",
-        "minLength": 1
-      }
-    },
-    "examples": {
-      "type": "array",
-      "items": {
-        "type": "string",
-        "minLength": 1
-      }
-    },
-    "audio": {
-      "type": "string"
-    },
-    "source": {
-      "type": "string",
-      "minLength": 1
-    }
+    "lang": { "type": "string", "pattern": "^[a-z]{2,3}$", "description": "ISO 639-3 code; must be listed in data/languages.json" },
+    "headword": { "type": "string", "minLength": 1, "maxLength": 80 },
+    "variants": { "type": "array", "maxItems": 20, "uniqueItems": true, "items": { "type": "string", "minLength": 1, "maxLength": 80 }, "description": "Other spellings of the same word (another orthography or dialect form)" },
+    "pos": { "enum": ["noun", "verb", "adjective", "adverb", "pronoun", "preposition", "conjunction", "interjection", "numeral", "phrase", "other"] },
+    "gloss": { "type": "object", "minProperties": 1, "propertyNames": { "pattern": "^[a-z]{2,3}$" }, "additionalProperties": { "type": "string", "minLength": 1, "maxLength": 200 } },
+    "concept": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "description": "Id from data/concepts.json (the basic word list)" },
+    "dialect": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "maxLength": 40, "description": "Dialect id listed for the language in data/languages.json" },
+    "orthography": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "maxLength": 40, "description": "Orthography id listed for the language in data/languages.json" },
+    "status": { "enum": ["draft", "sourced", "reviewed"], "description": "draft: entered, not checked; sourced: copied from the published source named in `source`; reviewed: confirmed by a speaker (name in `reviewed_by`)" },
+    "reviewed_by": { "type": "string", "minLength": 1, "maxLength": 80 },
+    "notes": { "type": "string", "minLength": 1, "maxLength": 500 },
+    "examples": { "type": "array", "maxItems": 10, "items": { "type": "string", "minLength": 1, "maxLength": 300 } },
+    "audio": { "type": "string", "pattern": "^audio/[a-z0-9-]+\\.(opus|ogg|webm)$", "description": "File in audio/, Opus, at most 50 KB" },
+    "source": { "type": "string", "minLength": 1, "maxLength": 300 },
+    "source_url": { "type": "string", "pattern": "^https://[^\\s]+$", "maxLength": 500 },
+    "license": { "type": "string", "minLength": 1, "maxLength": 80, "description": "Only when the data is not under the repository licence (for example CC BY-SA 4.0 for words taken from Wikipedia or Wiktionary)" }
   }
 }

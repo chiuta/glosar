@@ -1,0 +1,305 @@
+{
+  "version": 1,
+  "concepts": [
+    {
+      "id": "number-1",
+      "group": "numbers",
+      "en": "one",
+      "ro": "unu"
+    },
+    {
+      "id": "number-2",
+      "group": "numbers",
+      "en": "two",
+      "ro": "doi"
+    },
+    {
+      "id": "number-3",
+      "group": "numbers",
+      "en": "three",
+      "ro": "trei"
+    },
+    {
+      "id": "number-4",
+      "group": "numbers",
+      "en": "four",
+      "ro": "patru"
+    },
+    {
+      "id": "number-5",
+      "group": "numbers",
+      "en": "five",
+      "ro": "cinci"
+    },
+    {
+      "id": "number-6",
+      "group": "numbers",
+      "en": "six",
+      "ro": "șase"
+    },
+    {
+      "id": "number-7",
+      "group": "numbers",
+      "en": "seven",
+      "ro": "șapte"
+    },
+    {
+      "id": "number-8",
+      "group": "numbers",
+      "en": "eight",
+      "ro": "opt"
+    },
+    {
+      "id": "number-9",
+      "group": "numbers",
+      "en": "nine",
+      "ro": "nouă"
+    },
+    {
+      "id": "number-10",
+      "group": "numbers",
+      "en": "ten",
+      "ro": "zece"
+    },
+    {
+      "id": "mother",
+      "group": "family",
+      "en": "mother",
+      "ro": "mamă"
+    },
+    {
+      "id": "father",
+      "group": "family",
+      "en": "father",
+      "ro": "tată"
+    },
+    {
+      "id": "brother",
+      "group": "family",
+      "en": "brother",
+      "ro": "frate"
+    },
+    {
+      "id": "sister",
+      "group": "family",
+      "en": "sister",
+      "ro": "soră"
+    },
+    {
+      "id": "son",
+      "group": "family",
+      "en": "son",
+      "ro": "fiu"
+    },
+    {
+      "id": "daughter",
+      "group": "family",
+      "en": "daughter",
+      "ro": "fiică"
+    },
+    {
+      "id": "man",
+      "group": "family",
+      "en": "man (adult male)",
+      "ro": "bărbat"
+    },
+    {
+      "id": "woman",
+      "group": "family",
+      "en": "woman",
+      "ro": "femeie"
+    },
+    {
+      "id": "child",
+      "group": "family",
+      "en": "child",
+      "ro": "copil"
+    },
+    {
+      "id": "person",
+      "group": "family",
+      "en": "person",
+      "ro": "om"
+    },
+    {
+      "id": "head",
+      "group": "body",
+      "en": "head",
+      "ro": "cap"
+    },
+    {
+      "id": "eye",
+      "group": "body",
+      "en": "eye",
+      "ro": "ochi"
+    },
+    {
+      "id": "ear",
+      "group": "body",
+      "en": "ear",
+      "ro": "ureche"
+    },
+    {
+      "id": "nose",
+      "group": "body",
+      "en": "nose",
+      "ro": "nas"
+    },
+    {
+      "id": "mouth",
+      "group": "body",
+      "en": "mouth",
+      "ro": "gură"
+    },
+    {
+      "id": "tooth",
+      "group": "body",
+      "en": "tooth",
+      "ro": "dinte"
+    },
+    {
+      "id": "tongue",
+      "group": "body",
+      "en": "tongue (organ)",
+      "ro": "limbă (organ)"
+    },
+    {
+      "id": "hand",
+      "group": "body",
+      "en": "hand",
+      "ro": "mână"
+    },
+    {
+      "id": "foot",
+      "group": "body",
+      "en": "foot",
+      "ro": "picior"
+    },
+    {
+      "id": "heart",
+      "group": "body",
+      "en": "heart",
+      "ro": "inimă"
+    },
+    {
+      "id": "blood",
+      "group": "body",
+      "en": "blood",
+      "ro": "sânge"
+    },
+    {
+      "id": "bone",
+      "group": "body",
+      "en": "bone",
+      "ro": "os"
+    },
+    {
+      "id": "water",
+      "group": "nature",
+      "en": "water",
+      "ro": "apă"
+    },
+    {
+      "id": "fire",
+      "group": "nature",
+      "en": "fire",
+      "ro": "foc"
+    },
+    {
+      "id": "sun",
+      "group": "nature",
+      "en": "sun",
+      "ro": "soare"
+    },
+    {
+      "id": "moon",
+      "group": "nature",
+      "en": "moon",
+      "ro": "lună"
+    },
+    {
+      "id": "star",
+      "group": "nature",
+      "en": "star",
+      "ro": "stea"
+    },
+    {
+      "id": "night",
+      "group": "nature",
+      "en": "night",
+      "ro": "noapte"
+    },
+    {
+      "id": "day",
+      "group": "nature",
+      "en": "day",
+      "ro": "zi"
+    },
+    {
+      "id": "stone",
+      "group": "nature",
+      "en": "stone",
+      "ro": "piatră"
+    },
+    {
+      "id": "wind",
+      "group": "nature",
+      "en": "wind",
+      "ro": "vânt"
+    },
+    {
+      "id": "earth",
+      "group": "nature",
+      "en": "earth",
+      "ro": "pământ"
+    },
+    {
+      "id": "big",
+      "group": "basic",
+      "en": "big",
+      "ro": "mare"
+    },
+    {
+      "id": "small",
+      "group": "basic",
+      "en": "small",
+      "ro": "mic"
+    },
+    {
+      "id": "black",
+      "group": "basic",
+      "en": "black",
+      "ro": "negru"
+    },
+    {
+      "id": "white",
+      "group": "basic",
+      "en": "white",
+      "ro": "alb"
+    },
+    {
+      "id": "hot",
+      "group": "basic",
+      "en": "hot",
+      "ro": "cald"
+    },
+    {
+      "id": "cold",
+      "group": "basic",
+      "en": "cold",
+      "ro": "rece"
+    },
+    {
+      "id": "new",
+      "group": "basic",
+      "en": "new",
+      "ro": "nou"
+    },
+    {
+      "id": "good",
+      "group": "basic",
+      "en": "good",
+      "ro": "bun"
+    }
+  ]
+}

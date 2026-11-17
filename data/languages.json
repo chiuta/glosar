@@ -1,0 +1,184 @@
+{
+  "version": 1,
+  "languages": [
+    {
+      "code": "rup",
+      "name": {
+        "en": "Aromanian",
+        "ro": "Aromână",
+        "fr": "Aroumain",
+        "de": "Aromunisch",
+        "es": "Arrumano",
+        "it": "Arumeno",
+        "hu": "Aromán",
+        "pt": "Arromeno"
+      },
+      "also": [
+        "Macedo-Romanian",
+        "Armãneashti"
+      ],
+      "endonym": "armãneascã",
+      "family": "Eastern Romance",
+      "scripts": [
+        "Latn"
+      ],
+      "orthographies": [
+        {
+          "id": "armaneashti",
+          "note": {
+            "en": "Latin with ã, sh, ts, dz (the spelling used by Wiktionary)",
+            "ro": "Latină cu ã, sh, ts, dz (grafia folosită de Wiktionary)"
+          }
+        },
+        {
+          "id": "ro-based",
+          "note": {
+            "en": "Based on Romanian spelling: ă, ș, ț, z (the spelling used in the Wikipedia table of Romanian numbers)",
+            "ro": "Pe baza grafiei românești: ă, ș, ț, z (grafia din tabelul Wikipedia cu numerale românești)"
+          }
+        }
+      ],
+      "dialects": []
+    },
+    {
+      "code": "ruq",
+      "name": {
+        "en": "Megleno-Romanian",
+        "ro": "Meglenoromână",
+        "fr": "Mégléno-roumain",
+        "de": "Meglenorumänisch",
+        "es": "Meglenorrumano",
+        "it": "Meglenorumeno",
+        "hu": "Megleno-román",
+        "pt": "Megleno-romeno"
+      },
+      "also": [
+        "Meglenitic"
+      ],
+      "endonym": "vlăhește",
+      "family": "Eastern Romance",
+      "scripts": [
+        "Latn"
+      ],
+      "orthographies": [
+        {
+          "id": "ro-based",
+          "note": {
+            "en": "Based on Romanian spelling (the spelling used in the Wikipedia table of Romanian numbers)",
+            "ro": "Pe baza grafiei românești (grafia din tabelul Wikipedia cu numerale românești)"
+          }
+        }
+      ],
+      "dialects": []
+    },
+    {
+      "code": "ruo",
+      "name": {
+        "en": "Istro-Romanian",
+        "ro": "Istroromână",
+        "fr": "Istro-roumain",
+        "de": "Istrorumänisch",
+        "es": "Istrorrumano",
+        "it": "Istrorumeno",
+        "hu": "Isztriai román",
+        "pt": "Istro-romeno"
+      },
+      "also": [],
+      "endonym": null,
+      "family": "Eastern Romance",
+      "scripts": [
+        "Latn"
+      ],
+      "orthographies": [],
+      "dialects": []
+    },
+    {
+      "code": "rom",
+      "name": {
+        "en": "Romani",
+        "ro": "Romani",
+        "fr": "Romani",
+        "de": "Romani",
+        "es": "Romaní",
+        "it": "Romaní",
+        "hu": "Romani",
+        "pt": "Romani"
+      },
+      "also": [
+        "Romany"
+      ],
+      "endonym": "romani čhib",
+      "family": "Indo-Aryan",
+      "scripts": [
+        "Latn"
+      ],
+      "orthographies": [
+        {
+          "id": "latin-standard",
+          "note": {
+            "en": "Latin with š, č, ž and digraphs such as kh, ph, th, čh (as in the Wikipedia article on Early Romani)",
+            "ro": "Latină cu š, č, ž și digrafe precum kh, ph, th, čh (ca în articolul Wikipedia despre romanii timpurii)"
+          }
+        }
+      ],
+      "dialects": [
+        {
+          "id": "balkan",
+          "iso639_3": "rmn",
+          "name": {
+            "en": "Balkan Romani"
+          }
+        },
+        {
+          "id": "baltic",
+          "iso639_3": "rml",
+          "name": {
+            "en": "Baltic Romani"
+          }
+        },
+        {
+          "id": "carpathian",
+          "iso639_3": "rmc",
+          "name": {
+            "en": "Carpathian Romani"
+          }
+        },
+        {
+          "id": "finnish-kalo",
+          "iso639_3": "rmf",
+          "name": {
+            "en": "Finnish Kalo"
+          }
+        },
+        {
+          "id": "sinte",
+          "iso639_3": "rmo",
+          "name": {
+            "en": "Sinte Romani"
+          }
+        },
+        {
+          "id": "vlax",
+          "iso639_3": "rmy",
+          "name": {
+            "en": "Vlax Romani"
+          }
+        },
+        {
+          "id": "welsh",
+          "iso639_3": "rmw",
+          "name": {
+            "en": "Welsh Romani"
+          }
+        },
+        {
+          "id": "spanish-calo",
+          "iso639_3": "rmq",
+          "name": {
+            "en": "Spanish Romani (Caló)"
+          }
+        }
+      ]
+    }
+  ]
+}

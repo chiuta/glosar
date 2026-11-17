@@ -1,0 +1,16 @@
+{
+  "lang": "rom",
+  "headword": "bar",
+  "pos": "noun",
+  "gloss": {
+    "en": "stone, rock",
+    "ro": "piatră"
+  },
+  "concept": "stone",
+  "orthography": "latin-standard",
+  "status": "sourced",
+  "notes": "A single word recorded in a published dictionary; no text was copied.",
+  "source": "Angloromani dictionary (kratylos.org), etymology column 'European Romani'",
+  "source_url": "https://www.kratylos.org/~raphael/romani/angloromani/dictionarydde8.html?page=107",
+  "license": "The source states no licence; single words only"
+}

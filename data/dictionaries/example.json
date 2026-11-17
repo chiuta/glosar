@@ -1,11 +1,27 @@
 {
   "lang": "rup",
-  "headword": "apã",
+  "headword": "word-in-your-language",
+  "variants": [
+    "another spelling"
+  ],
   "pos": "noun",
   "gloss": {
-    "en": "water",
-    "ro": "apă"
+    "en": "meaning in English",
+    "ro": "sens în română",
+    "fr": "sens en français",
+    "de": "Bedeutung auf Deutsch",
+    "es": "significado en español",
+    "it": "significato in italiano",
+    "hu": "jelentés magyarul",
+    "pt": "significado em português"
   },
-  "examples": [],
-  "source": "contributor, native speaker (example entry)"
+  "concept": "water",
+  "orthography": "armaneashti",
+  "status": "draft",
+  "notes": "Optional: where the word is used, how it differs, what it must not be confused with.",
+  "examples": [
+    "A short sentence with the word."
+  ],
+  "source": "Who or what the word comes from (for example: a book, a recording, 'my grandmother, village X')",
+  "source_url": "https://example.org/optional-page"
 }
