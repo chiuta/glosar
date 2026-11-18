@@ -258,6 +258,8 @@ T('scripts/import_bundle.py: scrie fișierele de date și sunetul, sare peste du
 function copyRepo() {
   const d = mktmp();
   fs.cpSync(ROOT, d, { recursive: true, filter: (s) => !s.split(path.sep).includes('.git') && !s.split(path.sep).includes('node_modules') });
+  // Git nu urmărește directoare goale: într-un clon proaspăt `audio/` nu există până la prima înregistrare.
+  fs.mkdirSync(path.join(d, 'audio'), { recursive: true });
   return d;
 }
 const build = (d, ...a) => { const r = spawnSync(process.execPath, ['scripts/build.mjs', '--no-kit', ...a], { cwd: d, encoding: 'utf8' }); return { status: r.status, out: (r.stdout || '') + (r.stderr || '') }; };
