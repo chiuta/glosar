@@ -3,7 +3,7 @@
   "slug": "glosar",
   "name": "GLOSAR — Offline dictionaries for minority and endangered languages, built by their speakers",
   "version": "0.2.1",
-  "updated": "2026-11-20",
+  "updated": "2026-11-22",
   "description": "Offline dictionaries for minority and endangered languages, built by their speakers",
   "egress": [],
   "permissions": [
@@ -16,8 +16,8 @@
   "storageKeys": [
     "glosar.state"
   ],
-  "sizeBytes": 473521,
-  "sha256": "04b471b68d8f4f7ababd36fdb56cd22254c8ddd6aa5851b38bbfba0553471a7b",
+  "sizeBytes": 473581,
+  "sha256": "492239c43f247176fb41ae248b0ae5b0a52ada7fd7ec70c02f611ce4be0af9e8",
   "csp": {
     "present": true,
     "directives": {
@@ -28,7 +28,8 @@
       "base-uri": "'none'",
       "form-action": "'none'",
       "manifest-src": "'self'",
-      "worker-src": "'self'"
+      "worker-src": "'self'",
+      "upgrade-insecure-requests": "''"
     },
     "scriptInline": "hash",
     "connect": "'none'"
